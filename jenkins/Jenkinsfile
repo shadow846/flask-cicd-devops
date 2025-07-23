@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "your-dockerhub-username/flask-cicd-pipeline"
+        IMAGE_NAME = "goutham0842/flask-cicd-pipeline"
     }
 
     stages {
